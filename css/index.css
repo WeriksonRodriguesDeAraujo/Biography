@@ -1,0 +1,356 @@
+.foto-home {
+    height: 200px;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border-radius: 50%;
+	animation: aparece 2s;
+}
+@keyframes aparece {
+	from {
+		opacity: 0;
+		transform: scale(0.001);
+	}
+}
+
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+	
+}
+
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+	position: relative;
+	left: -150px;
+}
+
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+	display: inline-block;
+	transform:  rotate(-5deg) skew(-10deg);
+	animation: flutua 1s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	position: relative;
+}
+
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+.saudacao:hover em {
+    animation-play-state: paused;
+}
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+}
+
+.secao-inicio {
+    padding: 2em;
+}	
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+	text-shadow: 3px 3px #000;
+}
+
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+	background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.trabalhos ul {
+	display: flex;
+}
+
+.trabalhos li {
+   flex: 1;
+   border: .5em solid #000;
+}
+
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+	background-image: linear-gradient(45deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(255, 255, 255, 0.1) 14px,
+                        rgba(255, 255, 255, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+}
+
+.blog small {
+    position: relative;
+    top: -2em;
+}
+
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+
+footer h2 {
+    font-size: 3em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+.palavra-home {
+	position: absolute;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+}
+
+.eficiencia {
+   top: 45%;
+   left: 60%;
+   transform: translate(-50%, -50%) rotate(15deg) translateZ(4px) scale(0.25);
+   opacity: .8;
+}
+
+.boas-praticas {
+	top : 35%;
+	left: 85%;
+	transform: translate(-50%, -50%) rotate(15deg) translateZ(1px) scale(0.25);
+	opacity: .3;
+}
+
+.codigo-limpo {
+	top : 50%;
+	right: 50%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(0.25); 
+	opacity: .6;
+}
+
+.css3 {
+	top : 45%;
+	right: 68%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(0.25);
+	opacity: .6;
+}
+
+.html5 {
+	top : 65%;
+	left: 40%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(0.25);
+	opacity: .6;
+}
+
+.javascript {
+	top : 30%;
+	left: 38%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(1px) scale(0.25);
+	opacity: .3;
+}
+
+.acessibilidade {
+	top : 60%;
+	left: 60%;
+	transform: translate(-50%, -50%) rotate(15deg) translateZ(3px) scale(0.25);
+	opacity: .5;
+}
+
+.responsivo {
+	top : 32%;
+	left: 35%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(3px) scale(0.25);
+	opacity: .8;
+}
+
+.otimizacoes {
+	top : 65%;
+	right: 58%;
+	transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(0.25);
+	opacity: .6;
+}
+
+.agilidade {
+	top : 25%;
+	right: 25%;
+	transform: translate(-50%, -50%) rotate(15deg) translateZ(1px) scale(0.25);
+	opacity: .3;
+}
+
+.design {
+	top : 65%;
+	left: 75%;
+	transform: translate(-50%, -50%) rotate(15deg) translateZ(2px) scale(0.25);
+	opacity: .6;
+}
+
+.blog {
+    position: relative;
+}
+
+.blog .inicio-post {
+	position: absolute;
+	top: 4em;
+	height: 8em;
+    left: 30%;
+    right: 4em;
+	padding: 1.5em;
+	background-color: #F2FFFC;
+	color: #000;
+}
+
+.blog .mais-recente {
+	background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+	color: #F26;
+}
+
+.blog li {
+    width: 30%;
+}
+
+.banner-twitter {
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+    font-size: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+	animation: aparece 0.5s;
+	transition-delay: 2s;
+	animation-fill-mode: backwards;
+}
+
+.banner-twitter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+}
+
+.palavras-home {
+	position: absolute;
+	top: 0;
+    left: 0;
+	bottom: 0;
+    right: 0;
+	 width: 100%;
+    height: 100%;
+}
+
+.palavras-home li {
+    font-size: 400%;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
+}
+
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+.botao-index {
+    text-decoration: none;
+	transition: .5s;
+}
+
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+
